@@ -62,7 +62,7 @@ const Hero = () => {
             Engineer.
           </p>
 
-          <a href="/files/Resume.pdf" target="_blank">
+          <a href="/files/Full_Stack_Resume.pdf" target="_blank">
             <MagicButton
               title="Checkout my Resume"
               icon={<FaLocationArrow />}
