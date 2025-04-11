@@ -32,22 +32,22 @@ export function CursorTrail() {
 
     function initializeTrail() {
       trailRef.current = new Array(params.pointsNumber).fill(null).map(() => ({
-        x: canvas.width / 2,
-        y: canvas.height / 2,
+        x: canvas!.width / 2,
+        y: canvas!.height / 2,
         dx: 0,
         dy: 0,
       }));
     }
 
     function updateMousePosition(eX: number, eY: number) {
-      const rect = canvas.getBoundingClientRect();
+      const rect = canvas!.getBoundingClientRect();
       pointerRef.current.x = eX - rect.left;
       pointerRef.current.y = eY - rect.top;
     }
 
     function setupCanvas() {
-      canvas.width = canvas.clientWidth;
-      canvas.height = canvas.clientHeight;
+      canvas!.width = canvas!.clientWidth;
+      canvas!.height = canvas!.clientHeight;
       initializeTrail();
     }
 
@@ -55,13 +55,13 @@ export function CursorTrail() {
       if (!mouseMovedRef.current) {
         pointerRef.current.x =
           (0.5 + 0.3 * Math.cos(0.002 * t) * Math.sin(0.005 * t)) *
-          canvas.width;
+          canvas!.width;
         pointerRef.current.y =
           (0.5 + 0.2 * Math.cos(0.005 * t) + 0.1 * Math.cos(0.01 * t)) *
-          canvas.height;
+          canvas!.height;
       }
 
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx!.clearRect(0, 0, canvas!.width, canvas!.height);
 
       trailRef.current.forEach((p, pIdx) => {
         const prev =
@@ -85,28 +85,28 @@ export function CursorTrail() {
       // gradient.addColorStop(0, "rgba(160, 93, 134, 1)");
       // gradient.addColorStop(1, "rgba(57, 34, 115, 1)");
 
-      ctx.strokeStyle = "rgba(255, 255, 255, 1)";
-      ctx.lineCap = "round";
-      ctx.beginPath();
-      ctx.moveTo(trailRef.current[0].x, trailRef.current[0].y);
+      ctx!.strokeStyle = "rgba(255, 255, 255, 1)";
+      ctx!.lineCap = "round";
+      ctx!.beginPath();
+      ctx!.moveTo(trailRef.current[0].x, trailRef.current[0].y);
 
       for (let i = 1; i < trailRef.current.length - 1; i++) {
         const xc = 0.5 * (trailRef.current[i].x + trailRef.current[i + 1].x);
         const yc = 0.5 * (trailRef.current[i].y + trailRef.current[i + 1].y);
-        ctx.quadraticCurveTo(
+        ctx!.quadraticCurveTo(
           trailRef.current[i].x,
           trailRef.current[i].y,
           xc,
           yc
         );
-        ctx.lineWidth = params.widthFactor * (params.pointsNumber - i);
-        ctx.stroke();
+        ctx!.lineWidth = params.widthFactor * (params.pointsNumber - i);
+        ctx!.stroke();
       }
-      ctx.lineTo(
+      ctx!.lineTo(
         trailRef.current[trailRef.current.length - 1].x,
         trailRef.current[trailRef.current.length - 1].y
       );
-      ctx.stroke();
+      ctx!.stroke();
       window.requestAnimationFrame(update);
     }
 
