@@ -38,37 +38,25 @@ const Grid = () => {
           {companies.map((company) => (
             <Button
               key={company.id}
-              //   random duration will be fun , I think , may be not
               duration={Math.floor(Math.random() * 10000) + 10000}
               borderRadius="1.75rem"
               style={{
-                //   add these two
-                //   you can generate the color from here https://cssgradient.io/
                 background: "rgb(4,7,29)",
                 backgroundColor:
                   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-                // add this border radius to make it more rounded so that the moving border is more realistic
                 borderRadius: `calc(1.75rem* 0.96)`,
               }}
-              // remove bg-white dark:bg-slate-900
-              className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              className="group relative flex flex-col items-center justify-center py-3 px-6 text-black dark:text-white border-neutral-200 dark:border-slate-800 transition-all duration-300 hover:shadow-xl"
             >
-              <React.Fragment key={company.id}>
-                <div className="flex items-center md:max-w-60 max-w-32 gap-2">
-                  <img
-                    src={company.img}
-                    alt={company.name}
-                    className="md:w-24 w-20"
-                  />
-                  {/* <h5>{company.nameImg}</h5> */}
-                  {/* <img
-                  src={company.nameImg}
-                  alt={company.name}
-                  width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
-                /> */}
-                </div>
-              </React.Fragment>
+              <img
+                src={company.img}
+                alt={company.name}
+                className="md:w-24 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <span className="mt-2 text-sm font-medium">
+                {company.nameImg}
+              </span>
+              <div className="absolute inset-0 border-2 border-transparent rounded transition-colors duration-300"></div>
             </Button>
           ))}
         </div>

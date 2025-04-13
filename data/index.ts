@@ -102,6 +102,21 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Discova Trips",
+    des: "DiscovaTrips is a membership-based travel and activity platform tailored for individuals, families, corporations, experience enthusiasts, and those exploring global citizenship opportunities. It addresses diverse user needs by providing curated experiences, personalized activities, and premium membership options.",
+    img: "/discova-image.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nextjs.svg",
+      "/nodejs.svg",
+      "/mongo-db.png",
+    ],
+    link: "https://www.discovatrips.com/",
+  },
+  {
+    id: 4,
     title: "Owambe - Enterprise Resource Planning",
     des: " Owambe Event Organizer ERP, Authentication and profile settings, Creating and managing event details, Adding guests, handling invitations, and managing seating, Handling food and drink items, as well as order management, Uploading, sharing, and purchasing event media, Managing wishlists and cash gift transactions, Guest PWA and Guest Scanner Apps for guests interacting with the event (QR codes, invites).",
     img: "/owambe.png",
@@ -116,7 +131,7 @@ export const projects = [
     link: "https://owambe-dashboard.vercel.app/dashboard",
   },
   {
-    id: 4,
+    id: 5,
     title: "Harmony Stores",
     des: "An innovative Nigerian retail technology company that prides itself on delivering top-quality computers, mobile phones, gadgets, and much more..",
     img: "/harmony.jpeg",
@@ -131,7 +146,7 @@ export const projects = [
     link: "https://www.harmonystores.ng/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Job Tracker",
     des: "Users can easily manage their job applications, track progress, and stay organized throughout their job hunt journey.",
     img: "/jobsAPI.png",
@@ -146,7 +161,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Job-Tracking-App",
   },
   {
-    id: 6,
+    id: 7,
     title: "Comfy - E commerce Store",
     des: "Your Online Destination for Stylish Home Furnishings.",
     img: "/comfyStore.png",
@@ -154,7 +169,7 @@ export const projects = [
     link: "https://comfystorefurnitures.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "FashByStiles - Fashion",
     des: "Fash by Stiles is an online clothing store that specializes in offering the latest fashion trends for men while also providing the option to connect with the store through WhatsApp.",
     img: "/clothesApp.jpeg",
@@ -162,7 +177,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/FashionApp",
   },
   {
-    id: 8,
+    id: 9,
     title: "PizzaHub - Pizza Delivery",
     des: "Features such as payment integration, user authentication, and authorization, making it a convenient and secure way to order food..",
     img: "/pizzaHub.jpeg",
@@ -176,7 +191,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Pizza_Delivery_Web_App",
   },
   {
-    id: 9,
+    id: 10,
     title: "Task Manager - To Do",
     des: "Designed to help users efficiently manage their tasks, projects, and to-do lists. Developed with Node.js and axios",
     img: "/taskManager.png",
@@ -191,7 +206,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Task-Manager-App",
   },
   {
-    id: 10,
+    id: 11,
     title: "CampFix - Report management",
     des: " Designed to help university campuses manage and track reports related to environmental and safety issues.",
     img: "/report_management.jpeg",
@@ -199,7 +214,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Campus_Report_Management",
   },
   {
-    id: 11,
+    id: 12,
     title: "Mix Master",
     des: "Your Passport to Beverage Bliss. Your gateway to discovering an array of delightful drinks that quench your thirst and ignite your taste buds.",
     img: "/mixMaster.jpeg",
@@ -207,7 +222,7 @@ export const projects = [
     link: "https://mixmastercocktails.netlify.app/",
   },
   {
-    id: 12,
+    id: 13,
     title: "AirBnb",
     des: "From budget-friendly apartments to luxurious villas, and allows them to filter their search results based on their preferences.",
     img: "/airbnb.png",
@@ -290,7 +305,7 @@ export const companies = [
     id: 10,
     name: "C#",
     img: "/c-sharp.svg",
-    nameImg: "C# JS",
+    nameImg: "C#",
   },
   {
     id: 11,
@@ -321,27 +336,34 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineer - DivVerse LLC  USA",
+    title: "Full Stack Software Engineer - DivVerse LLC USA",
     desc: "Developed AI-Powered global talent management solution with development team for African workforce with over 75 companies and 10k+ active users",
     className: "md:col-span-2",
     thumbnail: "/Divverse-Logo.png",
   },
   {
     id: 2,
-    title: "Full Stack Developer - Siciliamia Italy",
-    desc: "Web Application Development, Backend Development, Agile Methodology, .",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/sm_logo.webp",
+    title: "Software Developer Voyatek Group, Canada",
+    desc: "Seamless booking management across flights, restaurants, hotels, nightlife, and activities, Real-time audio and video communication.",
+    className: "md:col-span-2",
+    thumbnail: "/eduglobe.jpg",
   },
   {
     id: 3,
+    title: "Full Stack Developer - Siciliamia Italy",
+    desc: "Web Application Development, Backend Development, Agile Methodology.",
+    className: "md:col-span-2",
+    thumbnail: "/sm_logo.webp",
+  },
+  {
+    id: 4,
     title: "Full Stack Developer Eduglobe India",
     desc: "Designed and implemented web applications along with UI/UX designers as a web team liaison for customer-facing projects.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/eduglobe.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Full Stack Developer Intern - Sidmach Technologies",
     desc: "Developed and maintained user-facing features using modern frontend and backend technologies.",
     className: "md:col-span-2",
