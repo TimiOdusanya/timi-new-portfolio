@@ -116,7 +116,7 @@ export const metadata: Metadata = {
   category: "technology",
 
   other: {
-    "google-site-verification": "", // paste your Google Search Console token here
+    "google-site-verification": "pzXnbJA1JFlYbNiLPEX1pjpvSIZP3OjPS0ba_6KYX1Q",
   },
 };
 
