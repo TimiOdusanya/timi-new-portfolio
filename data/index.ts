@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I architect end-to-end systems, from data models and cloud APIs to pixel-perfect UIs, always with scale, security, and business impact at the core.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "AI-native SaaS · Fintech · HRTech · TravelTech. Building full-stack products that scale to millions, globally.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,7 +50,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Currently Exploring my interest in Blockchain Based Supply Chain",
+    title:
+      "Engineering AI-Native Products: LLMs, Semantic Search and Real-Time Intelligence at Scale",
     description: "In the Works",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -71,9 +74,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "LoubbyAI - Talent & Payroll",
-    des: "Global talent management, hiring, payroll, remittances, and employee management solution with development team for African workforce. Authentication, Authorization, Payment and Wallet System",
-    img: "/loubby.jpeg",
+    title: "LoubbyAI: Global Talent, Payroll & HR Platform",
+    des: "AI-powered talent management, hiring, payroll, and remittances platform serving 200,000+ active users and 2,500+ companies across Africa. Built with LLM-driven job description generation, candidate evaluation, automated payroll, OAuth 2.0 / JWT auth, and real-time dashboards.",
+    img: "/loubby.png",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -86,8 +89,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "The Flex - Find Your Perfect Flexible Space",
-    des: "Discover premium short-term rentals in the world's most desirable locations. Experience comfort, convenience, and flexibility like never before.",
+    title: "The Flex: Premium Flexible Space Discovery",
+    des: "Mobile-first flexible space discovery platform enabling users to browse, filter, and explore premium short-term rentals globally. Built with Next.js, TypeScript, and LLM-powered search for personalised recommendations.",
     img: "/the-flex.png",
     iconLists: [
       "/re.svg",
@@ -101,8 +104,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Gopaddi – Travel, done your way",
-    des: "One platform for all your travel needs - from booking to chat management, to payment, agenices, personal to business",
+    title: "GoPaddi: Travel & Booking Platform",
+    des: "Production-grade travel platform covering flights, hotels, restaurants, and experiences. Architected a scalable Node.js/NestJS backend with SQL transactional models, real-time booking, LLM-powered search, and WebSocket-driven in-app communication.",
     img: "/gopaddi.png",
     iconLists: [
       "/re.svg",
@@ -116,8 +119,22 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Voyatek Group – Company Web App, Recruitment, CM",
-    des: "The complete landing page for Voyatek Group, along with a robust admin web application to manage job listings, applications, blog posts, subscriber data, and contact inquiries — empowering individuals and businesses to navigate their world with ease and shape their own aspirations.",
+    title: "CLIMB: AI-Native Investment Banking Platform",
+    des: "AI-native investment bank for the top 1% of startups, powering Cap Raise, M&A, Embedded Corp Dev, and IPOs. Built streaming LLM chat, semantic investor discovery, Gmail & Outlook OAuth CRM integrations, AI-assisted fundraising workflows, and iMessage agent infrastructure.",
+    img: "/champ-connect.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nextjs.svg",
+      "/nodejs.svg",
+    ],
+    link: "https://app.champintro.com/",
+  },
+  {
+    id: 5,
+    title: "Voyatek Group: Enterprise Web App & Recruitment",
+    des: "Complete landing page and robust admin web application for Voyatek Group, managing job listings, applications, blog posts, subscriber data, and contact inquiries, empowering individuals and businesses to navigate their world with ease.",
     img: "/voyatek.png",
     iconLists: [
       "/re.svg",
@@ -130,9 +147,9 @@ export const projects = [
     link: "https://www.voyatekgroup.com/",
   },
   {
-    id: 5,
-    title: "Discova Trips",
-    des: "DiscovaTrips is a membership-based travel and activity platform tailored for individuals, families, corporations, experience enthusiasts, and those exploring global citizenship opportunities. It addresses diverse user needs by providing curated experiences, personalized activities, and premium membership options.",
+    id: 6,
+    title: "DiscovaTrips: Membership Travel Experience Platform",
+    des: "Membership-based travel and activity platform for individuals, families, and corporations. Curated global experiences, personalised activities, premium memberships, and real-time booking flows built with Next.js, Zustand, Framer Motion, and GSAP.",
     img: "/discova-image.png",
     iconLists: [
       "/re.svg",
@@ -145,9 +162,9 @@ export const projects = [
     link: "https://www.discovatrips.com/",
   },
   {
-    id: 6,
-    title: "Owambe - Enterprise Resource Planning",
-    des: " Owambe Event Organizer ERP, Authentication and profile settings, Creating and managing event details, Adding guests, handling invitations, and managing seating, Handling food and drink items, as well as order management, Uploading, sharing, and purchasing event media, Managing wishlists and cash gift transactions, Guest PWA and Guest Scanner Apps for guests interacting with the event (QR codes, invites).",
+    id: 7,
+    title: "Owambe: Event Organizer ERP",
+    des: "Full enterprise resource planning system for event organizers covering guest management, seating, invitations, food and drink orders, media uploads, wishlists, cash gifts, QR-code guest scanner PWA, and a real-time dashboard.",
     img: "/owambe.png",
     iconLists: [
       "/re.svg",
@@ -160,9 +177,9 @@ export const projects = [
     link: "https://owambe-dashboard.vercel.app/dashboard",
   },
   {
-    id: 7,
-    title: "ShiftSync",
-    des: "Team scheduling that keeps shifts, availability, and coverage in sync—so coworkers see who's on, and managers can plan without chasing updates across chats and spreadsheets.",
+    id: 8,
+    title: "ShiftSync: Intelligent Team Scheduling",
+    des: "Team scheduling platform that keeps shifts, availability, and coverage in sync. Real-time visibility for coworkers, manager-level planning tools, and automated conflict detection across schedules.",
     img: "/shiftsync2.png",
     iconLists: [
       "/nextjs.svg",
@@ -176,9 +193,9 @@ export const projects = [
     link: "https://shiftsync-frontend-tau.vercel.app/",
   },
   {
-    id: 8,
-    title: "Harmony Stores",
-    des: "An innovative Nigerian retail technology company that prides itself on delivering top-quality computers, mobile phones, gadgets, and much more..",
+    id: 9,
+    title: "Harmony Stores: Retail Tech Platform",
+    des: "Nigerian retail technology company delivering top-quality computers, mobile phones, gadgets, and more. Features product discovery, cart management, and seamless checkout.",
     img: "/harmony.jpeg",
     iconLists: [
       "/nextjs.svg",
@@ -191,9 +208,9 @@ export const projects = [
     link: "https://www.harmonystores.ng/",
   },
   {
-    id: 9,
-    title: "Job Tracker",
-    des: "Users can easily manage their job applications, track progress, and stay organized throughout their job hunt journey.",
+    id: 10,
+    title: "Job Tracker: Application Management",
+    des: "Effortlessly manage job applications, track progress, and stay organised throughout the job hunt journey. Built with Node.js and real-time API integration.",
     img: "/jobsAPI.png",
     iconLists: [
       "/next.svg",
@@ -206,39 +223,17 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Job-Tracking-App",
   },
   {
-    id: 10,
-    title: "Comfy - E commerce Store",
-    des: "Your Online Destination for Stylish Home Furnishings.",
+    id: 11,
+    title: "Comfy: E-Commerce Furniture Store",
+    des: "Your online destination for stylish home furnishings. Browse a curated catalogue, manage your cart, and check out with ease.",
     img: "/comfyStore.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://comfystorefurnitures.netlify.app/",
   },
   {
-    id: 11,
-    title: "FashByStiles - Fashion",
-    des: "Fash by Stiles is an online clothing store that specializes in offering the latest fashion trends for men while also providing the option to connect with the store through WhatsApp.",
-    img: "/clothesApp.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/TimiOdusanya/FashionApp",
-  },
-  {
     id: 12,
-    title: "PizzaHub - Pizza Delivery",
-    des: "Features such as payment integration, user authentication, and authorization, making it a convenient and secure way to order food..",
-    img: "/pizzaHub.jpeg",
-    iconLists: [
-      "/net-framework.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
-    ],
-    link: "https://github.com/TimiOdusanya/Pizza_Delivery_Web_App",
-  },
-  {
-    id: 13,
-    title: "Task Manager - To Do",
-    des: "Designed to help users efficiently manage their tasks, projects, and to-do lists. Developed with Node.js and axios",
+    title: "Task Manager: Productivity Suite",
+    des: "Designed to help users efficiently manage tasks, projects, and to-do lists with full CRUD operations, status tracking, and priority management. Developed with Node.js and Axios.",
     img: "/taskManager.png",
     iconLists: [
       "/next.svg",
@@ -251,25 +246,17 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Task-Manager-App",
   },
   {
-    id: 14,
-    title: "CampFix - Report management",
-    des: " Designed to help university campuses manage and track reports related to environmental and safety issues.",
-    img: "/report_management.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/TimiOdusanya/Campus_Report_Management",
-  },
-  {
-    id: 15,
-    title: "Mix Master",
-    des: "Your Passport to Beverage Bliss. Your gateway to discovering an array of delightful drinks that quench your thirst and ignite your taste buds.",
+    id: 13,
+    title: "Mix Master: Beverage Discovery",
+    des: "Your passport to beverage bliss. Discover delightful drinks, cocktail recipes, and curated collections to ignite your taste buds.",
     img: "/mixMaster.jpeg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://mixmastercocktails.netlify.app/",
   },
   {
-    id: 16,
-    title: "AirBnb",
-    des: "From budget-friendly apartments to luxurious villas, and allows them to filter their search results based on their preferences.",
+    id: 14,
+    title: "AirBnb Clone",
+    des: "Browse budget-friendly apartments to luxurious villas with advanced filtering by location, price range, amenities, and availability.",
     img: "/airbnb.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/TimiOdusanya/AirBnb-App",
@@ -279,140 +266,259 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Timi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Timi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Timi is the ideal partner.",
-    name: "Daniel Ihebunandu",
-    title: "Senior software engineer at Verraki Africa",
+      "Timi is one of the most capable engineers I've had the privilege of working with. At DivVerse, he owned the full stack end to end, shipping production AI features, scaling the platform to hundreds of thousands of users, and consistently raising the bar for engineering quality. His instinct for product, combined with deep technical execution, is genuinely rare. He doesn't just build what's asked, he elevates it. I'd work with Timi again without hesitation.",
+    name: "Adebayo Ajibade",
+    title:
+      "Founder & Chief Solutions Architect, DivVerse LLC | Ex-Engineering Leader, Meta",
   },
   {
     quote:
-      "Collaborating with Timilehin has been a transformative experience for our team. His ability to adapt to fast-paced environments and solve complex problems creatively has been invaluable. Timilehin consistently demonstrated a high level of technical skill, which was evident in the exceptional quality of his work. His collaborative spirit made a significant impact on our project's success. I would eagerly collaborate with Timilehin again on future projects",
-    name: "Maria Rossi,",
-    title: "CEO at TechInnovate",
+      "Partnering with Timi was a turning point for our platform. He rebuilt our entire booking and payment infrastructure, scalable, secure, and beautifully designed. What set him apart was not just his technical depth, but his ability to understand our business goals and translate them into elegant solutions. Our system now handles 10x the load with half the complexity. He's the kind of engineer you don't find every day.",
+    name: "Sophia Laurent",
+    title: "CEO, NorthScale Ventures",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "HTML",
-    img: "/html.svg",
-    nameImg: "HTML",
-  },
-  {
-    id: 2,
-    name: "CSS",
-    img: "/CSS.svg",
-    nameImg: "CSS",
-  },
-  {
-    id: 3,
-    name: "JavaScript",
-    img: "/javascript.svg",
-    nameImg: "JavaScript",
-  },
-  {
-    id: 4,
-    name: "react",
-    img: "/react.svg",
-    nameImg: "React",
-  },
-  {
-    id: 5,
-    name: "Node JS",
-    img: "/nodejs.svg",
-    nameImg: "Node JS",
-  },
-  {
-    id: 6,
-    name: "Express JS",
-    img: "/express-js.svg",
-    nameImg: "Express",
-  },
-  {
-    id: 7,
-    name: "Next",
-    img: "/nextjs.svg",
-    nameImg: "Next JS",
-  },
-  {
-    id: 8,
     name: "TypeScript",
-    img: "/typescript.png",
+    img: "/ts.svg",
     nameImg: "TypeScript",
   },
   {
-    id: 9,
-    name: ".Net Core",
-    img: "/net-framework.svg",
-    nameImg: ".Net Core",
+    id: 2,
+    name: "React",
+    img: "/react.svg",
+    nameImg: "React.js",
   },
   {
-    id: 10,
-    name: "C#",
-    img: "/c-sharp.svg",
-    nameImg: "C#",
+    id: 3,
+    name: "Next.js",
+    img: "/nextjs.svg",
+    nameImg: "Next.js",
   },
   {
-    id: 11,
+    id: 4,
+    name: "Node.js",
+    img: "/nodejs.svg",
+    nameImg: "Node.js",
+  },
+  {
+    id: 5,
+    name: "Python",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    nameImg: "Python",
+  },
+  {
+    id: 6,
+    name: "AWS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+    nameImg: "AWS",
+  },
+  {
+    id: 7,
+    name: "PostgreSQL",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    nameImg: "PostgreSQL",
+  },
+  {
+    id: 8,
     name: "MongoDB",
     img: "/mongo-db.png",
     nameImg: "MongoDB",
   },
   {
+    id: 9,
+    name: "Tailwind CSS",
+    img: "/tail.svg",
+    nameImg: "Tailwind CSS",
+  },
+  {
+    id: 10,
+    name: "Redux",
+    img: "/redux.svg",
+    nameImg: "Redux",
+  },
+  {
+    id: 11,
+    name: "NestJS",
+    img: "https://cdn.simpleicons.org/nestjs/E0234E",
+    nameImg: "NestJS",
+  },
+  {
     id: 12,
-    name: "Mongoose",
-    img: "/mongoose.svg",
-    nameImg: "Mongoose",
+    name: "GraphQL",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    nameImg: "GraphQL",
   },
   {
     id: 13,
+    name: ".NET Core",
+    img: "/net-framework.svg",
+    nameImg: ".NET Core",
+  },
+  {
+    id: 14,
+    name: "C#",
+    img: "/c-sharp.svg",
+    nameImg: "C#",
+  },
+  {
+    id: 15,
     name: "Git",
     img: "/git.svg",
     nameImg: "Git",
   },
+];
+
+export const skillCategories = [
   {
-    id: 14,
-    name: "Java",
-    img: "/java.svg",
-    nameImg: "Java",
+    id: "frontend",
+    label: "Frontend",
+    gradient: "from-violet-600 to-indigo-600",
+    glow: "shadow-violet-500/30",
+    skills: [
+      { name: "React.js", img: "/react.svg" },
+      { name: "Next.js", img: "/nextjs.svg" },
+      { name: "TypeScript", img: "/ts.svg" },
+      { name: "JavaScript", img: "/javascript.svg" },
+      { name: "React Native", img: "/react.svg" },
+      { name: "Tailwind CSS", img: "/tail.svg" },
+      { name: "Redux", img: "/redux.svg" },
+      { name: "Zustand", img: null },
+      {
+        name: "Styled Components",
+        img: "https://cdn.simpleicons.org/styledcomponents/DB7093",
+      },
+      { name: "Shadcn UI", img: "https://cdn.simpleicons.org/shadcnui/ffffff" },
+      { name: "Framer Motion", img: "/fm.svg" },
+      { name: "GSAP", img: "/gsap.svg" },
+    ],
+  },
+  {
+    id: "backend",
+    label: "Backend",
+    gradient: "from-emerald-600 to-teal-600",
+    glow: "shadow-emerald-500/30",
+    skills: [
+      { name: "Node.js", img: "/nodejs.svg" },
+      {
+        name: "NestJS",
+        img: "https://cdn.simpleicons.org/nestjs/E0234E",
+      },
+      { name: "Express.js", img: "/express-js.svg" },
+      {
+        name: "Python",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
+        name: "FastAPI",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-plain.svg",
+      },
+      {
+        name: "GraphQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+      },
+      { name: ".NET Core", img: "/net-framework.svg" },
+      { name: "C#", img: "/c-sharp.svg" },
+      {
+        name: "Flask",
+        img: "https://cdn.simpleicons.org/flask/ffffff",
+      },
+      { name: "REST APIs", img: null },
+    ],
+  },
+  {
+    id: "ai_cloud",
+    label: "AI & Cloud",
+    gradient: "from-orange-500 to-rose-600",
+    glow: "shadow-orange-500/30",
+    skills: [
+      { name: "LLM APIs", img: null },
+      { name: "AI Scripting", img: null },
+      { name: "Semantic Search", img: null },
+      {
+        name: "AWS",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      },
+      { name: "CI/CD", img: null },
+      { name: "Docker", img: "/dock.svg" },
+      { name: "n8n", img: "https://cdn.simpleicons.org/n8n/EA4B71" },
+      { name: "Make.com", img: "https://cdn.simpleicons.org/make/6D00CC" },
+      { name: "OAuth 2.0", img: null },
+      { name: "JWT", img: null },
+      { name: "WebSockets", img: null },
+    ],
+  },
+  {
+    id: "database",
+    label: "Database",
+    gradient: "from-blue-600 to-cyan-500",
+    glow: "shadow-blue-500/30",
+    skills: [
+      {
+        name: "PostgreSQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
+      { name: "MongoDB", img: "/mongo-db.png" },
+      {
+        name: "Redis",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg",
+      },
+      { name: "Mongoose", img: "/mongoose.svg" },
+    ],
+  },
+  {
+    id: "tools",
+    label: "Testing & Tools",
+    gradient: "from-slate-500 to-zinc-600",
+    glow: "shadow-slate-500/30",
+    skills: [
+      {
+        name: "Jest",
+        img: "https://cdn.simpleicons.org/jest/C21325",
+      },
+      { name: "Git", img: "/git.svg" },
+      { name: "GitHub", img: "/github-new.svg" },
+      { name: "Azure", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+      { name: "SEO", img: null },
+    ],
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Software Engineer - DivVerse LLC USA",
-    desc: "Developed AI-Powered global talent management solution with development team for African workforce with over 75 companies and 10k+ active users",
+    title: "Senior Full Stack AI Engineer at CLIMB (AI-Native Investment Bank)",
+    duration: "Sep 2025 – Jul 2026 · 10 mos",
+    desc: "Led full-stack development of CLIMB's AI-native Founder CRM. Built streaming LLM chat, semantic investor search, Gmail and Outlook OAuth integrations, iMessage agent infrastructure, and scalable PostgreSQL schemas on AWS.",
+    className: "md:col-span-2",
+    thumbnail: "/climb_global_logo.jpeg",
+  },
+  {
+    id: 2,
+    title: "Senior Full Stack Engineer at DivVerse LLC (Loubby AI)",
+    duration: "Oct 2023 – Aug 2025 · 1 yr 10 mos",
+    desc: "Led development of an AI-powered talent management & payroll platform serving 200,000+ users and 2,500+ companies. Built the 3MTT national AI job marketplace, LLM-driven workflows, OAuth 2.0/JWT security, and .NET Core microservices.",
     className: "md:col-span-2",
     thumbnail: "/Divverse-Logo.png",
   },
   {
-    id: 2,
-    title: "Software Developer Voyatek Group, Canada",
-    desc: "Seamless booking management across flights, restaurants, hotels, nightlife, and activities, Real-time audio and video communication.",
-    className: "md:col-span-2",
-    thumbnail: "/eduglobe.jpg",
-  },
-  {
     id: 3,
-    title: "Full Stack Developer - Siciliamia Italy",
-    desc: "Web Application Development, Backend Development, Agile Methodology.",
+    title: "Full Stack Developer at Voyatek Group",
+    duration: "Jan 2023 – Dec 2023 · 1 yr",
+    desc: "Designed and consumed RESTful APIs for GoPaddi and DiscovaTrips covering flights, hotels, restaurants, and experiences. Integrated LLM-powered search, WebSocket real-time audio/video, OAuth/JWT auth, and scalable booking flows.",
     className: "md:col-span-2",
-    thumbnail: "/sm_logo.webp",
+    thumbnail: "/vg-logo.svg",
   },
   {
     id: 4,
-    title: "Full Stack Developer Eduglobe India",
-    desc: "Designed and implemented web applications along with UI/UX designers as a web team liaison for customer-facing projects.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/eduglobe.jpg",
-  },
-  {
-    id: 5,
-    title: "Full Stack Developer Intern - Sidmach Technologies",
-    desc: "Developed and maintained user-facing features using modern frontend and backend technologies.",
+    title: "Full Stack Developer at Siciliamia",
+    duration: "Jan 2020 – Nov 2022 · 2 yrs 11 mos",
+    desc: "Built production applications serving 200,000+ monthly users with React, Redux, Node.js and .NET Core (C#). Delivered college admissions platforms, delivery management dashboards, 85% test coverage with Jest, and 20% performance gains.",
     className: "md:col-span-2",
-    thumbnail: "/sidmach-logo.png",
+    thumbnail: "/sm_logo.webp",
   },
 ];
 

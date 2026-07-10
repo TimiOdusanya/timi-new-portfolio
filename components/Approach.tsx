@@ -13,40 +13,34 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="JavaScript, CSS, React, Next"
+          title="React, Next.js, TypeScript, React Native"
           icon={<AceternityIcon order="Frontend Development" />}
-          des="With proficiency in modern frameworks such as React and Next.js, I build seamless and engaging web experiences that are both aesthetically pleasing and highly functional. My approach prioritizes user experience, accessibility, and performance optimization."
+          des="I build performant, accessible, and polished UIs using React, Next.js, TypeScript, Tailwind CSS, and Framer Motion. From complex state management with Redux and Zustand to server-side rendering and responsive mobile apps with React Native — every interface I ship is production-grade and built to scale."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
-          title="Node JS, TypeScript, C#"
+          title="Node.js, NestJS, Python, .NET Core"
           icon={<AceternityIcon order="Backend Development" />}
-          des="Using technologies like Node.js and Express.js, TypeScript, C#(.Net Core), I build robust, scalable server-side applications. My expertise extends to database management with SQL and NoSQL systems, ensuring data integrity and efficient storage solutions."
+          des="I design and build secure, scalable APIs and microservices using Node.js, NestJS, Express, Python (FastAPI and Flask), and .NET Core (C#). From RESTful and GraphQL APIs to OAuth 2.0 auth, background job queues with Redis, and cloud-native infrastructure on AWS — I own the backend end to end."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
               [255, 166, 158],
               [221, 255, 247],
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Client and Server"
+          title="AI-Native Products at Scale"
           icon={<AceternityIcon order="Full Stack Development" />}
-          des="By combining my expertise in user interface design and server-side logic, I develop full-featured applications that are robust, scalable, and responsive. I am adept at managing the entire software development lifecycle, from initial concept and design to deployment and maintenance, ensuring seamless integration between the client and server sides."
+          des="With 6 years shipping full-stack products across Fintech, HRTech, and TravelTech, I own the entire development lifecycle — from database schema and cloud architecture to the final UI. I specialise in AI-powered platforms with LLM integrations, semantic search, real-time systems, and multi-channel agent workflows."
         >
           <CanvasRevealEffect
             animationSpeed={3}

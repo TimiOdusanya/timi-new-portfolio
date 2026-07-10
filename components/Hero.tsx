@@ -58,11 +58,14 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Timi Odusanya, a Full Stack Developer and Software
-            Engineer.
+            Hi, I&apos;m Timi Odusanya. Full Stack &amp; AI Engineer with 6
+            years building systems that scale.
           </p>
 
-          <a href="/files/Resume_Timilehin_Odusanya.pdf" target="_blank">
+          <a
+            href="/files/Timilehin_Odusanya_Full_Stack_Software_Engineer.pdf"
+            target="_blank"
+          >
             <MagicButton
               title="Checkout my Resume"
               icon={<FaLocationArrow />}

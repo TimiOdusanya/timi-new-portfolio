@@ -19,7 +19,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title={item.link}
-              href="https://twitter.com/timi_odusanya"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-[38vw] w-[80vw] overflow-hidden h-[30vh] lg:h-[40vh] mb-10">
                 <div
@@ -68,6 +68,8 @@ const RecentProjects = () => {
                   <a
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                     href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Demo
                   </a>

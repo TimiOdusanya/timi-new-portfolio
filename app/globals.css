@@ -83,3 +83,20 @@
     @apply font-medium text-4xl md:text-6xl text-center;
   }
 }
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 40s linear infinite;
+}
+
+.animate-scroll-x:hover {
+  animation-play-state: paused;
+}
